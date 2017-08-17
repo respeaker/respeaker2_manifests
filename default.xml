@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4" />
+  <remote fetch="https://github.com/rockchip-linux" name="rockchip-linux"/>
+  <remote fetch="https://github.com/respeaker" name="respeaker"/>
+
+  <project remote="rockchip-linux" path="kernel" name="kernel" revision="release-20170705"/>
+  <project remote="rockchip-linux" path="u-boot" name="u-boot" revision="release"/>
+  <project remote="rockchip-linux" path="rootfs" name="rk-rootfs-build" />
+  <project remote="respeaker" path="rkbin" name="rkbin" />
+
+  <project remote="respeaker" path="build" name="image_builder" revision="debian">
+	  <copyfile dest="README.md" src="README.md"/>
+  </project>
+  
+</manifest>
