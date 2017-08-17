@@ -7,7 +7,7 @@
 
   <project remote="rockchip-linux" path="kernel" name="kernel" revision="release-4.4"/>
   <project remote="rockchip-linux" path="u-boot" name="u-boot" revision="release"/>
-  <project remote="rockchip-linux" path="rootfs" name="rk-rootfs-build" revision="master"/>
+  <project remote="respeaker" path="rootfs" name="debian_rootfs" revision="master"/>
   <project remote="respeaker" path="rkbin" name="rkbin" revision="master"/>
 
   <project remote="respeaker" path="build" name="image_builder" revision="debian">
