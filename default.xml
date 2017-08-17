@@ -5,7 +5,7 @@
   <remote fetch="https://github.com/rockchip-linux" name="rockchip-linux"/>
   <remote fetch="https://github.com/respeaker" name="respeaker"/>
 
-  <project remote="rockchip-linux" path="kernel" name="kernel" revision="release-20170705"/>
+  <project remote="rockchip-linux" path="kernel" name="kernel" revision="release-4.4"/>
   <project remote="rockchip-linux" path="u-boot" name="u-boot" revision="release"/>
   <project remote="rockchip-linux" path="rootfs" name="rk-rootfs-build" revision="master"/>
   <project remote="respeaker" path="rkbin" name="rkbin" revision="master"/>
